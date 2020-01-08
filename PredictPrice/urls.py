@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path
 from Predict.views import index,main
 urlpatterns = [
-    path('',main),
+    path('',index),
     path('admin/', admin.site.urls),
-    path('index/', index),
 ]
