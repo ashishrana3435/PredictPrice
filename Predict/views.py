@@ -23,7 +23,7 @@ def index(request):
         X = X.T
         pred = np.dot(X,b)
         final_pred = sc.inverse_transform(pred)
-        print(final_pred)
+        # print(final_pred)
         context = {
             'Bathrooms': bathroom,
             'Bedrooms': bedroom,
